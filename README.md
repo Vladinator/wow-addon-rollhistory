@@ -1,3 +1,3 @@
 RollHistory
 ==================
-Wish that the loot history could get more integrated into your roll frames? This addon modifies the default roll frames and adds counters on the need, greed, disenchant and pass button regarding who picked what choice. A simple list with names over who picked what and over the undecided rollers is shown when hover over the buttons. No configuration required; works out of the box!
+Unsure what others have picked on the item roll? Wonder no more! This addon simply adds the amount of people that have picked Disenchant/Greed/Need on the button itself, and when you mouseover it shows a list of their names, and list over who has not yet decided what to roll. No configuration required; works out of the box!
