@@ -162,11 +162,14 @@ end
 
 -- all these events trigger a roll state change so we update accordingly
 local f = CreateFrame("Frame")
-f:RegisterEvent("BONUS_ROLL_ACTIVATE")
-f:RegisterEvent("BONUS_ROLL_DEACTIVATE")
-f:RegisterEvent("BONUS_ROLL_FAILED")
-f:RegisterEvent("BONUS_ROLL_RESULT")
-f:RegisterEvent("BONUS_ROLL_STARTED")
+if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
+	f:RegisterEvent("BONUS_ROLL_ACTIVATE")
+	f:RegisterEvent("BONUS_ROLL_DEACTIVATE")
+	f:RegisterEvent("BONUS_ROLL_FAILED")
+	f:RegisterEvent("BONUS_ROLL_RESULT")
+	f:RegisterEvent("BONUS_ROLL_STARTED")
+	f:RegisterEvent("PLAYER_LOOT_SPEC_UPDATED")
+end
 f:RegisterEvent("CANCEL_LOOT_ROLL")
 f:RegisterEvent("LOOT_CLOSED")
 f:RegisterEvent("LOOT_HISTORY_AUTO_SHOW")
@@ -180,7 +183,6 @@ f:RegisterEvent("LOOT_SLOT_CHANGED")
 f:RegisterEvent("LOOT_SLOT_CLEARED")
 f:RegisterEvent("MODIFIER_STATE_CHANGED")
 f:RegisterEvent("OPEN_MASTER_LOOT_LIST")
-f:RegisterEvent("PLAYER_LOOT_SPEC_UPDATED")
 f:RegisterEvent("START_LOOT_ROLL")
 f:RegisterEvent("UPDATE_MASTER_LOOT_LIST")
 
