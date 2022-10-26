@@ -1,8 +1,8 @@
-﻿## Interface: 90001
+﻿## Interface: 100000
 ## Title: RollHistory
 ## Notes: Enhances the default roll frames with more information from the built-in loot history feature.
 ## Author: Vladinator
-## Version: 9.0.1.201016
+## Version: 10.0.0.221026
 ## X-Curse-Project-ID: 87355
 ## X-WoWI-ID: 23341
 core.lua
