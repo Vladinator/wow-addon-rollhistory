@@ -1,3 +1,5 @@
+if select(4, GetBuildInfo()) >= 100100 then return end -- TOOD: NYI
+
 local _G = _G
 local format = string.format
 local pairs = pairs
