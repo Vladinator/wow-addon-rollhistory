@@ -1,9 +1,11 @@
-﻿## Interface: 30402
+﻿## Interface: 40400
 ## IconAtlas: poi-workorders
 ## Title: RollHistory (Placeholder)
 ## Notes: Enhances the default roll frames with more information from the built-in loot history feature.
 ## Author: Vladinator
-## Version: 3.4.2.230919
+## Version: 4.4.0.240908
 ## X-Curse-Project-ID: 87355
 ## X-WoWI-ID: 23341
+## X-Wago-ID: 7x61P2N1
+## X-AddonProvider: github
 #core.lua
